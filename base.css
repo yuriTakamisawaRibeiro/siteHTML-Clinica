@@ -73,9 +73,7 @@ body {
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
     box-shadow: 5px 5px 15px 5px #000000;
 }
-.content .tabela caption {
-    column-span: inherit;
-}
+
 .content .tabela th {
     text-align:center;
     border:solid #4599e8;
