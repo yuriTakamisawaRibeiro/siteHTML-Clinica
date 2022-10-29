@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #6ab7ff ;
+    text-decoration: none;
+    padding: 10px 20px 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.menu .lista-menu ul{
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+.header {
+    background-color:  #1e88e5;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.content .imagemPrincipal {
+    text-align: center;
+}
+.content .textoPrincipal {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content .textoQS {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content .textoAtendimento {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content .textoContato {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content  .tabela  {
+    width:100%;
+    border:solid #4599e8;
+    border-collapse:collapse;
+    padding:5px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.content .tabela caption {
+    column-span: inherit;
+}
+.content .tabela th {
+    text-align:center;
+    border:solid #4599e8;
+    padding:5px;
+    background: #4dc9ff;
+    color: #000000;
+}
+.content .tabela td {
+
+    border:solid #4599e8;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #000000;
+    
+}
+
+.content .tabela tr:hover td {
+    background-color: rgb(187, 183, 183);
+}
+.content .edificio {
+    text-align: center;
+}
+.content .doutor {
+    text-align: center;
+}
+.content .localizacao {
+    text-align: center;
+    
+}
+
+.row{
+    margin: 5px;
+}
+
+label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+fieldset{
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(21, 137, 245);
+}
+
+textarea {
+    resize: none;
+}
+.footer {
+    background-color: #005cb2;
+    min-height: 150px;
+
+}
+.footer .footerSocials ul {
+    text-align: center;
+    padding-bottom:25px;
+    list-style: none;
+    display: inline;
+}
+
+.footer .footerSocials  {
+        color: #000000;
+        text-decoration: none;
+        line-height: 40px;
+        
+}
+
+
